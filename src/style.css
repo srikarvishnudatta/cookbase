@@ -1,0 +1,50 @@
+:root {
+  font-family: "Fredoka", sans-serif;
+   --color-primary: #E4572E;
+  --color-secondary: #A8C686;
+  --color-background: #FDFCFB;
+  --color-surface: #F4EDE4;
+  --color-text: #2E2E2E;
+  --color-text-muted: #6E6E6E;
+  --color-accent: #F6AE2D;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--color-text);
+}
+body {
+  background-color: var(--color-background);
+}
+.max-w {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+button {
+  font-family: "Fredoka", sans-serif;
+  min-height: 45px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  border-radius: 5px;
+  border-radius: 5px;
+}
+.primary-btn {
+  background-color: var(--color-primary);
+  color: var(--color-surface);
+  border: 1px solid var(--color-accent);
+  transition: all 100ms ease-in;
+}
+.primary-btn:hover {
+  opacity: 0.6;
+}
+.secondary-btn {
+  background-color: var(--color-secondary);
+  color: var(--color-background);
+  border: 1px solid var(--color-background);
+  transition: all 100ms ease-in;
+}
+.secondary-btn:hover {
+  opacity: 0.6;
+}
+

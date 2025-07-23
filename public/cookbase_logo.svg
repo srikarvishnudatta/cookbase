@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" aria-labelledby="logoTitle">
+            <title id="logoTitle">Cookbase Logo</title>
+            
+            <!-- Group for the pot and steam icon -->
+            <g fill="none" stroke="#E85D3B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+                
+                <!-- Pot Lid: Deepened the curve -->
+                <path d="M 75 82 Q 100 68, 125 82" />
+                
+                <!-- Lid Handle -->
+                <path d="M 95 68 A 5 5 0 0 1 105 68" />
+
+                <!-- Pot Body: Made wider and adjusted curves -->
+                <path d="M 55 90 H 145 V 105 C 145 120, 130 130, 100 130 C 70 130, 55 120, 55 105 Z" />
+
+                <!-- Pot Handles: Adjusted position -->
+                <path d="M 40 97 H 55" />
+                <path d="M 145 97 H 160" />
+
+                <!-- Steam: Re-drawn to match the original's shape -->
+                <path d="M 106 68 C 114 58, 100 52, 108 42" />
+                <path d="M 94 64 C 88 56, 98 52, 92 44" />
+            </g>
+        </svg>
